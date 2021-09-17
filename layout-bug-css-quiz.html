@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+      body {
+        padding: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      ul.tabs {
+        display: flex;
+        align-items: stretch;
+        justify-content: start;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      ul.tabs li {
+        padding: 15px 30px;
+        font-weight: 100;
+      }
+      ul.tabs li:focus {
+        background-color: #ddf;
+      }
+      ul.tabs li:hover {
+        background-color: #eef;
+      }
+
+      .label {
+        font-size: 1.2rem;
+      }
+
+      .counter {
+        --padding: 4px;
+        font-size: 0.668rem;
+        display: inline-block;
+        position: relative;
+        background-color: #b12;
+        padding: var(--padding) calc(var(--padding) * 2);
+        margin: 0.5rem;
+        color: white;
+        border-radius: 99px;
+        position: relative;
+        top: -10px;
+        left: -5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div role="application">
+      <header>
+        <ul class="tabs" role="tabpanel">
+          <li tabindex="0" role="tab" role="tab">
+            <span class="label">New</span><span class="counter">10</span>
+          </li>
+          <li tabindex="0" role="tab">
+            <span class="label">Changes</span><span class="counter">5</span>
+          </li>
+          <li tabindex="0" role="tab">
+            <span class="label">Archive</span>
+          </li>
+          <li tabindex="0" role="tab">
+            <span class="label">Failed</span><span class="counter">1</span>
+          </li>
+        </ul>
+      </header>
+      <main>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint
+        minus ipsum consequatur rerum porro voluptatum quia tempore, veniam
+        eligendi aut facilis excepturi nostrum ratione quam, laboriosam alias,
+        quibusdam recusandae? Distinctio, qui natus! Aut voluptate ea deleniti
+        veniam reprehenderit dolore, consequuntur corrupti totam animi eligendi
+        eveniet quidem nihil laboriosam, illum perferendis tempora. Earum, animi
+        fuga laboriosam ipsa atque a dolor! Sunt placeat esse vel, minima fuga
+        minus, veniam iure aut magnam incidunt vitae consequatur exercitationem
+        repellendus nobis quidem maxime, illum eum! Ipsum, aliquid accusamus.
+        Obcaecati distinctio totam eaque quibusdam corrupti! Inventore,
+        laudantium officiis facere commodi, culpa similique dolor ipsam
+        voluptatem quasi reiciendis id asperiores ratione voluptate! Deleniti
+        dolorem soluta voluptatum quia quas molestiae commodi, corporis
+        similique excepturi ex modi id. Omnis qui maxime voluptates adipisci
+        ipsa fugiat corrupti ipsam aut consequuntur aspernatur ducimus vitae,
+        aperiam, inventore quis voluptatum! Optio, magnam! Numquam quaerat
+        delectus necessitatibus, quod deleniti quae suscipit eveniet
+        accusantium.
+      </main>
+    </div>
+  </body>
+</html>
