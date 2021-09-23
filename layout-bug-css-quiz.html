@@ -32,14 +32,13 @@
       .counter {
         --padding: 4px;
         font-size: 0.668rem;
-        display: inline-block;
+        display: inline;
         position: relative;
         background-color: #b12;
         padding: var(--padding) calc(var(--padding) * 2);
         margin: 0.5rem;
         color: white;
         border-radius: 99px;
-        position: relative;
         top: -10px;
         left: -5px;
       }
@@ -49,7 +48,7 @@
     <div role="application">
       <header>
         <ul class="tabs" role="tabpanel">
-          <li tabindex="0" role="tab" role="tab">
+          <li tabindex="0" role="tab">
             <span class="label">New</span><span class="counter">10</span>
           </li>
           <li tabindex="0" role="tab">
@@ -86,3 +85,8 @@
     </div>
   </body>
 </html>
+<!--
+  Question 1: What does the "NEW" tab have two roles?
+  Question 2: Why are there two position: relative; in .counter?
+
+-->
